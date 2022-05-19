@@ -17,7 +17,6 @@ class my_own_player(part.Participant):
         # this method must contain 'self.initialize_params()' which is for initializing some essential variables
         # you can initialize what you define
         self.initialize_params()
-        print("C")
     # ====================================================================== for initializing your player every round
 
 
@@ -99,5 +98,3 @@ class my_own_player(part.Participant):
                     return random.randint(0, 3)
     # ================================================================================= for tug_of_war game
 
-
-print("df")
